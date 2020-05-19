@@ -15,9 +15,14 @@ For each individual force, we can write the follwing equations:
 <img src="img/Forces.gif">
 </p>
 
-Where Φ is the angle of incline, _C<sub>rr</sub>_ is the rolling coefficient, _C<sub>d</sub>_ is the drag coefficient, and ρ is air density. //
+Where Φ is the angle of incline, _C<sub>rr</sub>_ is the rolling coefficient, _C<sub>d</sub>_ is the drag coefficient, and ρ is air density. 
 
-Velocity and acceleration were obtained from longitude and latitude coordinates. Wind speed and direction was gathered from Meteostat API. Mass of both rider and bike was taken as input. 
+Thus we can write the power output of the rider as:
+<p align="center"> 
+<img src="img/Power.gif">
+</p>
+
+
 # Results
 To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
 ## Test 1
