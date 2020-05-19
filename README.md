@@ -29,5 +29,16 @@ The power of rolling resistance is given by:
 Where C<sub>rr</sub> is the rolling coefficient and 
 ![alternativetext](img/ phi.gif)
 is the angle of incline.
-The power of gravity is 
+
+The power of gravity is given by:
+<p align="center"> 
+<img src="img/grav.gif">
+</p>
+
+# Results
+To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
+## Test 1
+<p align="center"> 
+<img src="img/Screenshot Test1.gif">
+</p>
 
