@@ -28,6 +28,7 @@ The power of rolling resistance is given by:
 </p>
 Where C<sub>rr</sub> is the rolling coefficient and 
 ![](https://raw.githubusercontent.com/ians-c/Power-Meter/master/img/phi.gif)
+<img src="phi.gif" width="800" />
 is the angle of incline.
 
 The power of gravity is given by:
