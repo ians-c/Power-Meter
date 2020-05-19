@@ -39,6 +39,6 @@ The power of gravity is given by:
 To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
 ## Test 1
 <p align="center"> 
-<img src="img/Test1.gif">
+<img src="img/Test1.PNG">
 </p>
 
