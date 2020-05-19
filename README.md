@@ -7,11 +7,16 @@ Power meters are crucial for cycling training. They are used to construst regime
 # Methods
 Velocity(v) and acceleration(a) were derived from longitude and latitude coordinates. Wind magnitude and direction were found using Meteostat API. Mass(m) of both rider and bike was taken as input.
 
-We know that the power output from a rider must equal sum the of the power of acceleration, the power of wind resistance, the power of rolling resistance, and the power of gravity. 
+We know that the power output from a rider must equal sum the of the power of acceleration, the power of gravity, the power of wind resistance, and the power of rolling resistance. 
 
 The power of accleration follows from Newton's Second Law:
 <p align="center"> 
 <img src="img/accel.gif">
+</p>
+
+The power of gravity is given by:
+<p align="center"> 
+<img src="img/grav.gif">
 </p>
 
 The power of wind resistance is given by:
@@ -19,20 +24,15 @@ The power of wind resistance is given by:
 <img src="img/wind.gif">
 </p>
 
-Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and ρ is the density of air. 
+Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and ρ is the density of air. <br/>
 
 
 The power of rolling resistance is given by:
 <p align="center"> 
 <img src="img/roll.gif">
 </p>
-Where C<sub>rr</sub> is the rolling coefficient and Φ is the angle of incline.
+Where C<sub>rr</sub> is the rolling coefficient and Φ is the angle of incline.<br/>
 
-
-The power of gravity is given by:
-<p align="center"> 
-<img src="img/grav.gif">
-</p>
 
 # Results
 To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
