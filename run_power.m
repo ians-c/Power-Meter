@@ -2,15 +2,16 @@ clc;
 clf;
 
 %Variables
-weight_rider = input('Enter rider weight in lbs:');
-weight_bike = input('Enter bike weight in pounds:');
+file = input('Enter file name:');
+weight_rider = input('How much do you weigh(lbs)?');
+weight_bike = input('How much does your bike weigh(lbs)?');
 mass = (weight_rider + weight_bike)*.4535;
 crolling = 0.004;
 cdrag = 0.4;
 A = 0.7;
 drive_train_eff = .95;
 
-g = gpxread('Test3.gpx');
+g = gpxread('file');
 
 %Data
 lat_mat = g.Latitude;
