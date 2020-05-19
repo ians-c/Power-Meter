@@ -24,7 +24,7 @@ The power of rolling resistance is given by:
 <p align="center"> 
 <img src="img/roll.gif">
 </p>
-Where C<sub>rr</sub> is the rolling coefficient and &rho; is the angle of incline.
+Where C<sub>rr</sub> is the rolling coefficient and $\Phi$; is the angle of incline.
 
 The power of gravity is given by:
 <p align="center"> 
