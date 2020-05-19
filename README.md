@@ -7,7 +7,7 @@ Power meters are crucial for cycling training. They are used to construst regime
 # Methods
 Velocity(v) and acceleration(a) were derived from longitude and latitude coordinates. Wind magnitude and direction were found using Meteostat API. Mass(m) of both rider and bike was taken as input.
 
-We know that the power output from a rider must equal sum the of the power of acceleration, the power of gravity, the power of wind resistance, and the power of rolling resistance. 
+We know that the power output from a rider must equal sum the of the power of acceleration, the power of gravity, the power of wind resistance, and the power of rolling resistance. Where Φ is the angle of incline, A is the area exposed to the wind, C<sub>rr</sub> is the rolling coefficient, C<sub>d</sub> is the drag coefficient, and ρ is the density of air, we can write the following equations: 
 
 The power of accleration follows from Newton's Second Law:
 <p align="center"> 
@@ -24,7 +24,7 @@ The power of wind resistance is given by:
 <img src="img/wind.gif">
 </p>
 
-Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and ρ is the density of air. <br/>
+Where A is the area exposed to wind, Φ is the angle of incline and ρ is the density of air. <br/>
 
 
 The power of rolling resistance is given by:
