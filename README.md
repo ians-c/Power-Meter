@@ -6,7 +6,6 @@ A Matlab program that calculates power output of cyclist from a gpx file
 * [Methods](#Methods)
 * [Results](#Results)
 * [Conclusion](#Conclusion)
-* [License] (#License)
 
 # Motivation
 Power meters are crucial for cycling training. They are used to construst regimented schedules and workouts to optimize athlete improvement. However, being very expensive and difficult to install, many seek alternatives. From only a gpx file, this program attempts to replicate a power meter as accuractely as possible by calculating the instantaneous power output over the course of a ride. 
@@ -73,7 +72,7 @@ Difference: 5.6%<br/>
 ## Conclusion
 This model proves to be an excellent substitute for a power meter. While it is unable detect short spikes in power, it can calculate average power within 8% of the true value. Offering a diligent consideration of wind resistance and a vast adaptability, this model is also proves more accurate than other gpx-based power meters (eg. Strava). Future projects could involve the incorporation of personalized FTP and power zones to enable a more advanced training companion. 
 
-# License
+## License
 This project is licensed under the MIT License
 
 
