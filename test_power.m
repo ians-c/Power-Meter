@@ -1,6 +1,6 @@
 %Test accuracy if actual power meter is available
 
-a = xlsread('Test3.xlsx');
+a = xlsread(file);
 
 actPower = a(:,1);
 xl_dis = a(:,2);
