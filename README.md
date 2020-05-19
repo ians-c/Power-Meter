@@ -36,7 +36,8 @@ Thus we can write the power output of the rider as:
 - The drag coefficient _C<sub>d</sub>_, by default is 0.4, but can be adjusted to accomodate group rides or variations in clothing.
 - The expose area A, by default is 0.7 m<sub>2</sub>, but can be adjusted to accomodate rider height or different riding positions. 
 - The drive-train efficiency η, by default is .95, but can be adjusted to accomodate bicycle type and wear.
-- "Instantaneous" velocity, acceleration, and slope of incline are calculated from longitude, latitude, and elevation within the gpx file. - Mass of rider and bike are taken as inputs. 
+- "Instantaneous" velocity, acceleration, and slope of incline are calculated from longitude, latitude, and elevation within the gpx file.
+- Mass of rider and bike are taken as inputs. 
 
 # Results
 To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
