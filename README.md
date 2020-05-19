@@ -32,7 +32,7 @@ To test the accuracy of this model, the calculated output power was compared to 
 
 Calculated Average Power = 198 W<br/>
 Actual Average Power = 212 W<br/>
-Difference: 6.8%
+Difference: 6.8%<br/>
 
 ## Test 2
 <p align="center"> 
@@ -41,7 +41,7 @@ Difference: 6.8%
 
 Calculated Average Power = 221 W<br/>
 Actual Average Power = 248 W<br/>
-Difference: 7.9%
+Difference: 7.9%<br/>
 
 
 ## Test 3
@@ -51,5 +51,5 @@ Difference: 7.9%
 
 Calculated Average Power = 186 W<br/>
 Actual Average Power = 201 W<br/>
-Difference: 5.6%
+Difference: 5.6%<br/>
 
