@@ -2,7 +2,7 @@
 A Matlab program that calculates power output of cyclist from a gpx file
 
 # Motivation
-Power meters are crucial for cycling training. They are used to construst regimented schedules and workouts to optimize athlete improvement. However, being very expensive and difficult to install, many seek alternatives. From only a gpx file, this program attempts to replicate a power meter as accuractely as possible by calculating the instantaneous velocity and power output over the course of a ride. 
+Power meters are crucial for cycling training. They are used to construst regimented schedules and workouts to optimize athlete improvement. However, being very expensive and difficult to install, many seek alternatives. From only a gpx file, this program attempts to replicate a power meter as accuractely as possible by calculating the instantaneous power output over the course of a ride. 
 
 # Methods
 Velocity(v) and acceleration(a) were derived from longitude and latitude coordinates. Wind magnitude and direction were found using Meteostat API. Mass(m) of both rider and bike was taken as input.
@@ -35,7 +35,7 @@ To test the accuracy of this model, the calculated output power was compared to 
 
 Calculated Average Power = 185 W
 Actual Average Power = 212 W
-Difference: 
+Difference: 14%
 
 ## Test 2
 <p align="center"> 
@@ -44,11 +44,8 @@ Difference:
 
 Calculated Average Power = 221 W
 Actual Average Power = 248 W
-Difference:
+Difference: 11%
 
-Calculated Average Speed = 20.3 mph
-Actual Average Speed = 20.2 mph
-Difference:
 
 ## Test 3
 <p align="center"> 
@@ -59,6 +56,3 @@ Calculated Average Power = 180 W
 Actual Average Power = 201 W
 Difference: 11%
 
-Calculated Average Speed = 16.7 mph
-Actual Average Speed = 16.6 mph
-Difference:
