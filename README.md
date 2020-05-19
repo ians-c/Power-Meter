@@ -7,7 +7,7 @@ Power meters are crucial for cycling training. They are used to construst regime
 # Methods
 Velocity(v) and acceleration(a) were derived from longitude and latitude coordinates. Wind magnitude and direction were found using Meteostat API. Mass(m) of both rider and bike was taken as input.
 
-We know that the power output from a rider must equal sum of the power of acceleration, the power of wind resistance, the power of rolling resistance, and the power of gravity. 
+We know that the power output from a rider must equal sum the of the power of acceleration, the power of wind resistance, the power of rolling resistance, and the power of gravity. 
 
 The power of accleration follows from Newton's Second Law:
 <p align="center"> 
@@ -42,3 +42,21 @@ To test the accuracy of this model, the calculated output power was compared to 
 <img src="img/Test1.PNG">
 </p>
 
+Calculated Average Power = 
+Actual Average Power = 
+
+## Test 2
+<p align="center"> 
+<img src="img/Test2.PNG">
+</p>
+
+Calculated Average Power = 
+Actual Average Power = 
+
+## Test 3
+<p align="center"> 
+<img src="img/Test3.PNG">
+</p>
+
+Calculated Average Power = 
+Actual Average Power = 
