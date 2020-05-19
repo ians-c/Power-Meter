@@ -27,7 +27,7 @@ Thus we can write the power output of the rider as:
 To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
 ## Test 1
 <p align="center"> 
-<img src="img/Test1.PNG">
+<img src="img/Test_1.png">
 </p>
 
 Calculated Average Power = 185 W
@@ -36,7 +36,7 @@ Difference: 14%
 
 ## Test 2
 <p align="center"> 
-<img src="img/Test2.PNG">
+<img src="img/Test_2.png">
 </p>
 
 Calculated Average Power = 221 W
@@ -46,7 +46,7 @@ Difference: 11%
 
 ## Test 3
 <p align="center"> 
-<img src="img/Test3.PNG">
+<img src="img/Test_3.png">
 </p>
 
 Calculated Average Power = 180 W
