@@ -46,7 +46,7 @@ Difference: 11%
 
 ## Test 3
 <p align="center"> 
-<img src="img/Test_3.png">
+<img src="img/Test1_3.png">
 </p>
 
 Calculated Average Power = 180 W
