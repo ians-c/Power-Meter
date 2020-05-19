@@ -29,11 +29,13 @@ Thus we can write the power output of the rider as:
 </p>
 
 ## Derivation of Variables
-- "Instantaneous" velocity, acceleration, and slope of incline are calculated from longitude, latitude, and elevation within the gpx file. - Mass of rider and bike are taken as inputs. 
+
 - Wind magnitude and direction are extracted from nearby weather stations using Meteostat API. 
 - The rolling coefficient _C<sub>rr</sub>_ is dependent on the width and quality of tires. The default is 0.004, the typical value for a standard road bike. 
-- The drag coefficient _C<sub>d</sub>_, by default is 0.4, but can be adjusted to accomodate group rides or different riding positions.
+- The drag coefficient _C<sub>d</sub>_, by default is 0.4, but can be adjusted to accomodate group rides or variations in clothing.
 - The expose area A, by default is 0.7 m<sub>2</sub>, but can be adjusted to accomodate rider height or different riding positions. 
+- The drive-train efficiency η, by default is .95, but can be adjusted to accomodate bicycle type and wear.
+- "Instantaneous" velocity, acceleration, and slope of incline are calculated from longitude, latitude, and elevation within the gpx file. - Mass of rider and bike are taken as inputs. 
 
 # Results
 To test the accuracy of this model, the calculated output power was compared to power meter data in three different rides.
@@ -66,5 +68,6 @@ Actual Average Power = 201 W<br/>
 Difference: 5.6%<br/>
 
 ## Conclusion
+This model proves to be an excellent substitute for a power meter. While it is unable detect short spikes in power, it can calculate average power within 8% of the true value. Offering a diligent consideration of wind resistance and a vast adaptability, this model is also proves more accurate than other gpx-based power meters (eg. Strava). Future projects could involve the incorporation of personalized FTP and power zones to enable a more advanced training companion. 
 
 
