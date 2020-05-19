@@ -70,7 +70,7 @@ vel = smoothdata(vel, 'sgolay',30);
 accel = diff(vel);
 
 %Get weather
-weather
+run_weather
 
 % Power to overcome wind
 angle_diff = direction - wind_direction;
@@ -139,7 +139,7 @@ axis([0 total_dis(end) 0 Pmax+50])
 pbaspect([3 2 1])
 
 %Compare to actual values if available
-testpower
+test_power
 
 
 
