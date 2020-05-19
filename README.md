@@ -33,21 +33,32 @@ To test the accuracy of this model, the calculated output power was compared to 
 <img src="img/Test1.PNG">
 </p>
 
-Calculated Average Power = 
-Actual Average Power = 
+Calculated Average Power = 185 W
+Actual Average Power = 212 W
+Difference: 
 
 ## Test 2
 <p align="center"> 
 <img src="img/Test2.PNG">
 </p>
 
-Calculated Average Power = 
-Actual Average Power = 
+Calculated Average Power = 221 W
+Actual Average Power = 248 W
+Difference:
+
+Calculated Average Speed = 20.3 mph
+Actual Average Speed = 20.2 mph
+Difference:
 
 ## Test 3
 <p align="center"> 
 <img src="img/Test3.PNG">
 </p>
 
-Calculated Average Power = 
-Actual Average Power = 
+Calculated Average Power = 180 W
+Actual Average Power = 201 W
+Difference: 11%
+
+Calculated Average Speed = 16.7 mph
+Actual Average Speed = 16.6 mph
+Difference:
