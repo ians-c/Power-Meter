@@ -7,7 +7,7 @@ Power meters are crucial for cycling training. They are used to construst regime
 # Methods
 The total force exerted by a rider in motion is the sum of the force of gravity _F<sub>g</sub>_, the force needed to accelerate _F<sub>a</sub>_, the force of rolling resistance _F<sub>r</sub>_, and the force of air resistance _F<sub>w</sub>_, divided by the drive-train efficiency η.
 <p align="center"> 
-<img src="img/Ftot.gif">
+<img src="img/Ftot2.gif">
 </p>
 
 For each individual force, we can write the follwing equations:
