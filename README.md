@@ -18,7 +18,7 @@ The power of wind resistance is given by:
 <p align="center"> 
 <img src="img/wind.gif">
 </p>
-Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and $latex 	\( \rho \ P \) $
+Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and $latex\rho P $
 ![alternativetext](img/rho.gif)
 is the density of air. 
 
