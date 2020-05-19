@@ -71,4 +71,9 @@ Difference: 5.6%<br/>
 ## Conclusion
 This model proves to be an excellent substitute for a power meter. While it is unable detect short spikes in power, it can calculate average power within 8% of the true value. Offering a diligent consideration of wind resistance and a vast adaptability, this model is also proves more accurate than other gpx-based power meters (eg. Strava). Future projects could involve the incorporation of personalized FTP and power zones to enable a more advanced training companion. 
 
+# License
+This project is licensed under the MIT License
+
+
+
 
