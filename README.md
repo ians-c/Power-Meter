@@ -5,7 +5,7 @@ A Matlab program that calculates power output of cyclist from a gpx file
 * [Motivation](#Motivation)
 * [Methods](#Methods)
 * [Results](#Results)
-* [Conclusion](##Conclusion)
+* [Conclusion](#Conclusion)
 
 # Motivation
 Power meters are crucial for cycling training. They are used to construst regimented schedules and workouts to optimize athlete improvement. However, being very expensive and difficult to install, many seek alternatives. From only a gpx file, this program attempts to replicate a power meter as accuractely as possible by calculating the instantaneous power output over the course of a ride. 
