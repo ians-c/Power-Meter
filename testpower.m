@@ -8,7 +8,7 @@ xl_dis = xl_dis/1609.34;
 Pact = max(actPower);
 
 %Plot calculated power
-figure(2)
+figure(3)
 
 subplot(121)
 plot(total_dis, POWER)
