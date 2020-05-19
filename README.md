@@ -18,18 +18,13 @@ The power of wind resistance is given by:
 <p align="center"> 
 <img src="img/wind.gif">
 </p>
-Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and 
-![alt tag](img/rho.gif)
-is the density of air. 
+Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and <img src="img/rho.gif" width="10" /> is the density of air. 
 
 The power of rolling resistance is given by:
 <p align="center"> 
 <img src="img/roll.gif">
 </p>
-Where C<sub>rr</sub> is the rolling coefficient and 
-![](https://raw.githubusercontent.com/ians-c/Power-Meter/master/img/phi.gif)
-<img src="img/phi.gif" width="10" />
-is the angle of incline.
+Where C<sub>rr</sub> is the rolling coefficient and <img src="img/phi.gif" width="10" /> is the angle of incline.
 
 The power of gravity is given by:
 <p align="center"> 
