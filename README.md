@@ -19,7 +19,7 @@ The power of wind resistance is given by:
 <img src="img/wind.gif">
 </p>
 Where A is the area exposed to wind, C<sub>d</sub> is the drag coefficient and 
-![](img/rho.gif)
+![alternativetext](img/rho.gif)
 is the density of air. 
 
 The power of rolling resistance is given by:
@@ -27,7 +27,7 @@ The power of rolling resistance is given by:
 <img src="img/roll.gif">
 </p>
 Where C<sub>rr</sub> is the rolling coefficient and 
-![]img/phi.gif 
+![alternativetext]img/phi.gif 
 is the angle of incline.
 The power of gravity is 
 
