@@ -19,7 +19,7 @@ Where Φ is the angle of incline, _C<sub>rr</sub>_ is the rolling coefficient, _
 
 Thus we can write the power output of the rider as:
 <p align="center"> 
-<img src="img/Power.gif">
+<img src="img/Power2.gif">
 </p>
 
 
