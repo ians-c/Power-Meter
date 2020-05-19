@@ -6,6 +6,9 @@ weight_rider = input('Enter rider weight in lbs:');
 weight_bike = input('Enter bike weight in pounds:');
 mass = (weight_rider + weight_bike)*.4535;
 crolling = 0.004;
+cdrag = 0.4;
+A = 0.7;
+drive_train_eff = .95;
 
 g = gpxread('Test3.gpx');
 
@@ -77,7 +80,7 @@ res = res.';
 vel_rel = vel+res;
 [T, ab, P, rho] = atmosisa(ele);
 rho(1)=[];
-P_wind = rho.*(vel_rel.^3)*.5*.7*.4;
+P_wind = rho.*(vel_rel.^3)*.5*cdrag*A;
 P_wind = filloutliers(P_wind,'center');
 P_wind = smoothdata(P_wind);
 
@@ -108,6 +111,7 @@ POWER = P_roll + P_accel + P_grav + P_wind;
 POWER(POWER<0)=0;
 POWER = filloutliers(POWER,'next');
 POWER = smoothdata(POWER,'movmean', 3);
+POWER = POWER/drive_train_eff;
 avg = nanmean(POWER);
 fprintf("Average Power: %3.f Watts",avg)
 avg_power = avg.* ones(length(POWER),1);
