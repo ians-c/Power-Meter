@@ -11,7 +11,7 @@ cdrag = 0.4;
 A = 0.7;
 drive_train_eff = .95;
 
-g = gpxread('file');
+g = gpxread(file);
 
 %Data
 lat_mat = g.Latitude;
